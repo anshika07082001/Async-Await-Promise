@@ -1,38 +1,29 @@
+body{
+    background: rgb(204, 229, 250) !important;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.category {
+    max-width: 800px !important;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Polaris-Button--primary {
+    float: left !important ;
+    margin-top: 15px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.attr_table {
+    padding-top: 50px !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border {
+    border: 2px solid black;
+    padding: 80px;
+    margin-top: 20px;
 }
